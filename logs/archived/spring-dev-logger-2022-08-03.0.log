@@ -1,0 +1,1541 @@
+2022-08-03 13:08:31,106 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 2312 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 13:08:31,118 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 13:08:32,744 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 13:08:32,875 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 114 ms. Found 3 JPA repository interfaces.
+2022-08-03 13:08:34,295 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 13:08:34,312 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 13:08:34,313 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 13:08:34,313 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 13:08:34,806 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 13:08:34,807 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3611 ms
+2022-08-03 13:08:35,150 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 13:08:35,285 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 13:08:35,647 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 13:08:35,857 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 13:08:36,521 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 13:08:36,555 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 13:08:37,875 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 13:08:37,887 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 13:08:38,962 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 13:08:39,903 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 13:08:39,993 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 13:08:40,559 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 13:08:40,928 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 13:08:40,929 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 13:08:40,929 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 13:08:40,930 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 899ms (build:93ms init:436ms start:370ms)
+2022-08-03 13:08:40,940 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 10.76 seconds (JVM running for 11.975)
+2022-08-03 13:10:13,192 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Validation occurred
+2022-08-03 13:12:56,930 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 21576 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 13:12:56,936 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 13:12:58,471 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 13:12:58,607 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 119 ms. Found 3 JPA repository interfaces.
+2022-08-03 13:13:00,116 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 13:13:00,136 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 13:13:00,137 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 13:13:00,138 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 13:13:00,704 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 13:13:00,704 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3688 ms
+2022-08-03 13:13:01,139 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 13:13:01,261 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 13:13:01,676 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 13:13:01,948 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 13:13:02,586 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 13:13:02,620 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 13:13:04,024 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 13:13:04,040 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 13:13:06,202 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 13:13:07,577 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 13:13:07,671 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 13:13:08,174 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 13:13:08,455 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 13:13:08,456 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 13:13:08,457 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 13:13:08,457 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 837ms (build:166ms init:389ms start:282ms)
+2022-08-03 13:13:08,465 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 12.348 seconds (JVM running for 13.446)
+2022-08-03 13:14:51,296 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] deleted particular employee data using id
+2022-08-03 13:17:22,798 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 1032 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 13:17:22,803 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 13:17:24,730 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 13:17:24,915 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 159 ms. Found 3 JPA repository interfaces.
+2022-08-03 13:17:26,643 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 13:17:26,661 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 13:17:26,663 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 13:17:26,663 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 13:17:27,182 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 13:17:27,182 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4292 ms
+2022-08-03 13:17:27,545 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 13:17:27,672 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 13:17:28,076 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 13:17:28,331 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 13:17:28,961 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 13:17:28,991 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 13:17:31,822 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 13:17:31,853 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 13:17:33,774 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 13:17:35,609 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 13:17:35,826 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 13:17:37,051 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 13:17:37,338 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 13:17:37,338 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 13:17:37,339 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 13:17:37,339 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 1s633ms (build:379ms init:967ms start:287ms)
+2022-08-03 13:17:37,346 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 15.391 seconds (JVM running for 16.59)
+2022-08-03 13:18:26,957 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] deleted particular employee data using id
+2022-08-03 13:18:31,476 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Validation occurred
+2022-08-03 13:58:35,181 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 24920 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 13:58:35,187 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 13:58:36,808 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 13:58:36,942 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 113 ms. Found 3 JPA repository interfaces.
+2022-08-03 13:58:38,366 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 13:58:38,382 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 13:58:38,383 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 13:58:38,384 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 13:58:38,938 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 13:58:38,938 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3663 ms
+2022-08-03 13:58:39,341 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 13:58:39,458 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 13:58:39,787 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 13:58:40,027 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 13:58:40,549 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 13:58:40,576 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 13:58:41,927 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 13:58:41,942 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 13:58:43,056 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 13:58:44,080 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 13:58:44,158 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 13:58:44,657 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 13:58:44,945 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 13:58:44,945 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 13:58:44,946 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 13:58:44,946 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 772ms (build:88ms init:396ms start:288ms)
+2022-08-03 13:58:44,954 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 10.807 seconds (JVM running for 15.954)
+2022-08-03 14:00:09,076 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] adding new Employee Data with post method
+2022-08-03 14:00:52,293 INFO org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Operation Completed
+2022-08-03 14:31:46,627 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 6612 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 14:31:46,633 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 14:31:48,548 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 14:31:48,729 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 154 ms. Found 3 JPA repository interfaces.
+2022-08-03 14:31:50,356 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 14:31:50,377 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 14:31:50,378 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 14:31:50,379 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 14:31:51,143 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 14:31:51,144 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4407 ms
+2022-08-03 14:31:51,833 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 14:31:51,988 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 14:31:52,432 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 14:31:52,702 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 14:31:53,270 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 14:31:53,303 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 14:31:54,989 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 14:31:55,009 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 14:31:56,382 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 14:31:57,391 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 14:31:57,471 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 14:31:58,009 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 14:31:58,287 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 14:31:58,288 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 14:31:58,290 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 14:31:58,290 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 813ms (build:113ms init:420ms start:280ms)
+2022-08-03 14:31:58,301 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 12.781 seconds (JVM running for 14.261)
+2022-08-03 14:32:20,602 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Exception occurred
+2022-08-03 14:44:38,922 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 2580 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 14:44:38,930 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 14:44:40,871 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 14:44:41,035 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 130 ms. Found 3 JPA repository interfaces.
+2022-08-03 14:44:42,974 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 14:44:43,005 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 14:44:43,007 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 14:44:43,008 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 14:44:43,765 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 14:44:43,766 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4740 ms
+2022-08-03 14:44:44,293 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 14:44:44,435 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 14:44:44,962 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 14:44:45,278 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 14:44:46,008 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 14:44:46,053 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 14:44:47,915 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 14:44:47,938 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 14:44:50,105 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 14:44:51,388 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 14:44:51,479 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 14:44:52,251 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 14:44:52,605 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 14:44:52,606 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 14:44:52,607 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 14:44:52,608 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 1s126ms (build:148ms init:630ms start:348ms)
+2022-08-03 14:44:52,619 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 14.963 seconds (JVM running for 16.611)
+2022-08-03 14:44:52,859 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] deleted particular employee data using id
+2022-08-03 14:45:05,984 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Validation occurred
+2022-08-03 14:46:57,189 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s73ms278탎100ns).
+2022-08-03 14:46:57,204 INFO org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61616@62743] Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:56)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1973)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1992)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 common frames omitted
+2022-08-03 14:46:57,211 WARN org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Setup of JMS message listener invoker failed for destination 'CompanyQueue' - trying to recover. Cause: The Session is closed
+2022-08-03 14:46:57,215 WARN org.springframework.jms.connection.SingleConnectionFactory [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61616@62743] Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:80)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1423)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:691)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:234)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1980)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	... 1 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 common frames omitted
+2022-08-03 14:46:57,253 ERROR org.springframework.jms.listener.AbstractMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Application exception overridden by rollback error
+javax.jms.IllegalStateException: The Session is closed
+	at org.apache.activemq.ActiveMQSession.checkClosed(ActiveMQSession.java:772)
+	at org.apache.activemq.ActiveMQSession.getTransacted(ActiveMQSession.java:541)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.jms.connection.CachingConnectionFactory$CachedSessionInvocationHandler.invoke(CachingConnectionFactory.java:412)
+	at com.sun.proxy.$Proxy140.getTransacted(Unknown Source)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:739)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-08-03 14:46:57,258 WARN org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Execution of JMS message listener failed. Caused by: [javax.jms.IllegalStateException - The Session is closed]
+javax.jms.IllegalStateException: The Session is closed
+	at org.apache.activemq.ActiveMQSession.checkClosed(ActiveMQSession.java:772)
+	at org.apache.activemq.ActiveMQSession.getTransacted(ActiveMQSession.java:541)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.jms.connection.CachingConnectionFactory$CachedSessionInvocationHandler.invoke(CachingConnectionFactory.java:412)
+	at com.sun.proxy.$Proxy140.getTransacted(Unknown Source)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.rollbackOnExceptionIfNecessary(AbstractMessageListenerContainer.java:809)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:677)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-08-03 14:47:28,263 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 2364 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 14:47:28,273 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 14:47:30,133 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 14:47:30,298 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 147 ms. Found 3 JPA repository interfaces.
+2022-08-03 14:47:32,311 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 14:47:32,331 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 14:47:32,333 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 14:47:32,333 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 14:47:32,906 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 14:47:32,907 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4523 ms
+2022-08-03 14:47:33,322 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 14:47:33,488 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 14:47:34,005 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 14:47:34,280 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 14:47:34,890 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 14:47:34,933 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 14:47:36,569 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 14:47:36,586 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 14:47:38,010 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 14:47:39,155 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 14:47:39,236 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 14:47:39,769 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 14:47:40,060 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 14:47:40,060 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 14:47:40,061 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 14:47:40,062 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 870ms (build:144ms init:434ms start:292ms)
+2022-08-03 14:47:40,070 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 12.973 seconds (JVM running for 14.477)
+2022-08-03 14:47:59,886 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Exception occurred
+2022-08-03 14:50:08,853 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 25348 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 14:50:08,858 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 14:50:10,691 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 14:50:10,858 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 143 ms. Found 3 JPA repository interfaces.
+2022-08-03 14:50:12,532 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 14:50:12,555 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 14:50:12,557 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 14:50:12,557 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 14:50:13,129 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 14:50:13,129 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4168 ms
+2022-08-03 14:50:13,527 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 14:50:13,663 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 14:50:14,047 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 14:50:14,293 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 14:50:14,915 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 14:50:14,948 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 14:50:16,323 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 14:50:16,341 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 14:50:17,732 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 14:50:18,769 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 14:50:18,843 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 14:50:19,384 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 14:50:19,671 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 14:50:19,671 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 14:50:19,672 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 14:50:19,672 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 827ms (build:111ms init:429ms start:287ms)
+2022-08-03 14:50:19,682 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 11.975 seconds (JVM running for 13.411)
+2022-08-03 14:50:35,234 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] deleted particular employee data using id
+2022-08-03 14:50:42,937 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Validation occurred
+2022-08-03 17:17:37,689 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 3416 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 17:17:37,694 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 17:17:39,040 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 17:17:39,141 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 3 JPA repository interfaces.
+2022-08-03 17:17:40,390 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 17:17:40,412 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 17:17:40,413 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 17:17:40,414 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 17:17:40,937 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 17:17:40,937 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3168 ms
+2022-08-03 17:17:41,290 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 17:17:41,411 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 17:17:41,768 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 17:17:41,991 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 17:17:42,526 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 17:17:42,549 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 17:17:43,788 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 17:17:43,804 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 17:17:44,876 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 17:17:45,844 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 17:17:45,928 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 17:17:46,381 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 17:17:46,635 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 17:17:46,636 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 17:17:46,637 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 17:17:46,637 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 696ms (build:92ms init:348ms start:256ms)
+2022-08-03 17:17:46,644 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 9.748 seconds (JVM running for 10.787)
+2022-08-03 17:19:08,920 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 17:28:16,724 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 9640 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 17:28:16,728 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 17:28:18,121 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 17:28:18,224 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 3 JPA repository interfaces.
+2022-08-03 17:28:19,440 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 17:28:19,453 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 17:28:19,454 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 17:28:19,454 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 17:28:19,833 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 17:28:19,834 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3034 ms
+2022-08-03 17:28:20,142 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 17:28:20,237 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 17:28:20,542 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 17:28:20,722 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 17:28:21,182 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 17:28:21,207 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 17:28:22,259 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 17:28:22,270 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 17:28:23,184 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 17:28:23,996 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 17:28:24,064 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 17:28:24,522 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 17:28:24,766 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 17:28:24,766 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 17:28:24,767 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 17:28:24,767 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 666ms (build:74ms init:348ms start:244ms)
+2022-08-03 17:28:24,775 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 8.766 seconds (JVM running for 9.793)
+2022-08-03 17:28:24,922 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 17:28:35,562 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Exception occurred
+2022-08-03 17:32:14,879 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 17:35:20,786 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 20904 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 17:35:20,791 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 17:35:22,147 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 17:35:22,280 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 115 ms. Found 3 JPA repository interfaces.
+2022-08-03 17:35:23,408 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 17:35:23,422 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 17:35:23,423 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 17:35:23,424 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 17:35:23,842 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 17:35:23,842 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2984 ms
+2022-08-03 17:35:24,119 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 17:35:24,203 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 17:35:24,441 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 17:35:24,602 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 17:35:25,005 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 17:35:25,028 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 17:35:26,068 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 17:35:26,079 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 17:35:27,071 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 17:35:27,911 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 17:35:27,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 17:35:28,393 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 17:35:28,617 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 17:35:28,618 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 17:35:28,618 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 17:35:28,618 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 649ms (build:97ms init:327ms start:225ms)
+2022-08-03 17:35:28,625 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 8.616 seconds (JVM running for 9.54)
+2022-08-03 17:35:56,179 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 17:35:56,226 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Validation occurred
+2022-08-03 17:39:52,536 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 1948 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 17:39:52,541 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 17:39:53,947 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 17:39:54,075 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 111 ms. Found 3 JPA repository interfaces.
+2022-08-03 17:39:55,772 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 17:39:55,787 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 17:39:55,788 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 17:39:55,789 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 17:39:56,343 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 17:39:56,343 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3729 ms
+2022-08-03 17:39:56,816 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 17:39:57,022 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 17:39:57,433 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 17:39:57,670 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 17:39:58,437 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 17:39:58,504 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 17:39:59,820 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 17:39:59,834 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 17:40:01,058 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 17:40:01,900 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 17:40:01,963 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 17:40:02,437 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 17:40:02,705 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 17:40:02,706 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 17:40:02,706 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 17:40:02,706 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 725ms (build:87ms init:370ms start:268ms)
+2022-08-03 17:40:02,714 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 10.985 seconds (JVM running for 11.983)
+2022-08-03 17:40:25,350 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 17:41:14,498 ERROR org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Failed delivery for (MessageId: ID:MUM-LAP-1508-57281-1659506237838-4:5:1:1:5 on ExchangeId: 2FDCA2B651AD0B9-0000000000000000). Exhausted after delivery attempt: 1 caught: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+
+Message History (source location and message history is disabled)
+---------------------------------------------------------------------------------------------------------------------------------------
+Source                                   ID                             Processor                                          Elapsed (ms)
+                                         route2/route2                  from[activemq://EmployeeQueue]                            49279
+	...
+                                         route2/choice2                 choice[when[{com.demoProj.predicate.PredicateEmp@3            0
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:28)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:24)
+	... 21 common frames omitted
+2022-08-03 17:41:14,503 WARN org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Execution of JMS message listener failed. Caused by: [org.apache.camel.RuntimeCamelException - java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])]
+org.apache.camel.RuntimeCamelException: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at org.apache.camel.RuntimeCamelException.wrapRuntimeCamelException(RuntimeCamelException.java:51)
+	at org.apache.camel.component.jms.EndpointMessageListener$EndpointMessageListenerAsyncCallback.done(EndpointMessageListener.java:217)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:136)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:28)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:24)
+	... 21 common frames omitted
+2022-08-03 19:22:07,894 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 16836 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 19:22:07,899 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 19:22:09,235 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 19:22:09,362 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 108 ms. Found 3 JPA repository interfaces.
+2022-08-03 19:22:10,471 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 19:22:10,483 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:22:10,484 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 19:22:10,484 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 19:22:10,881 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 19:22:10,882 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2921 ms
+2022-08-03 19:22:11,143 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 19:22:11,228 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 19:22:11,475 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 19:22:11,637 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 19:22:12,061 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 19:22:12,083 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 19:22:13,030 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 19:22:13,040 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 19:22:13,887 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 19:22:14,612 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:22:14,684 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 19:22:15,030 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 19:22:15,246 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 19:22:15,246 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 19:22:15,246 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 19:22:15,247 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 548ms (build:72ms init:260ms start:216ms)
+2022-08-03 19:22:15,251 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 8.109 seconds (JVM running for 9.179)
+2022-08-03 19:23:10,739 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 19:23:10,869 ERROR org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Failed delivery for (MessageId: ID:MUM-LAP-1508-57281-1659506237838-4:6:1:1:1 on ExchangeId: 2E02DE02E66864B-0000000000000000). Exhausted after delivery attempt: 1 caught: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":"done",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+
+Message History (source location and message history is disabled)
+---------------------------------------------------------------------------------------------------------------------------------------
+Source                                   ID                             Processor                                          Elapsed (ms)
+                                         route2/route2                  from[activemq://EmployeeQueue]                              225
+	...
+                                         route2/choice2                 choice[when[{com.demoProj.predicate.PredicateEmp@1            0
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":"done",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":"done",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:23:10,872 WARN org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Execution of JMS message listener failed. Caused by: [org.apache.camel.RuntimeCamelException - java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":"done",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])]
+org.apache.camel.RuntimeCamelException: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":"done",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at org.apache.camel.RuntimeCamelException.wrapRuntimeCamelException(RuntimeCamelException.java:51)
+	at org.apache.camel.component.jms.EndpointMessageListener$EndpointMessageListenerAsyncCallback.done(EndpointMessageListener.java:217)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:136)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":"done",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":9,
+"compId":1,
+"name":"done",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:23:49,511 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 19:23:49,528 ERROR org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Failed delivery for (MessageId: ID:MUM-LAP-1508-57281-1659506237838-4:6:1:1:2 on ExchangeId: 2E02DE02E66864B-0000000000000001). Exhausted after delivery attempt: 1 caught: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":99,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+
+Message History (source location and message history is disabled)
+---------------------------------------------------------------------------------------------------------------------------------------
+Source                                   ID                             Processor                                          Elapsed (ms)
+                                         route2/route2                  from[activemq://EmployeeQueue]                               17
+	...
+                                         route2/choice2                 choice[when[{com.demoProj.predicate.PredicateEmp@1            0
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":99,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":99,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:23:49,529 WARN org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Execution of JMS message listener failed. Caused by: [org.apache.camel.RuntimeCamelException - java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":99,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])]
+org.apache.camel.RuntimeCamelException: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":99,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at org.apache.camel.RuntimeCamelException.wrapRuntimeCamelException(RuntimeCamelException.java:51)
+	at org.apache.camel.component.jms.EndpointMessageListener$EndpointMessageListenerAsyncCallback.done(EndpointMessageListener.java:217)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:136)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":99,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":99,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:24:37,918 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 15884 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 19:24:37,922 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 19:24:39,327 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 19:24:39,436 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 96 ms. Found 3 JPA repository interfaces.
+2022-08-03 19:24:40,661 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 19:24:40,673 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:24:40,674 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 19:24:40,674 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 19:24:41,078 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 19:24:41,078 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3088 ms
+2022-08-03 19:24:41,399 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 19:24:41,491 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 19:24:41,809 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 19:24:42,033 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 19:24:42,492 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 19:24:42,518 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 19:24:43,567 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 19:24:43,579 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 19:24:44,509 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 19:24:45,292 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:24:45,386 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 19:24:45,901 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 19:24:46,198 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 19:24:46,199 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 19:24:46,199 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 19:24:46,200 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 805ms (build:77ms init:430ms start:298ms)
+2022-08-03 19:24:46,208 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 9.005 seconds (JVM running for 9.978)
+2022-08-03 19:25:04,592 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 19:26:51,794 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s895ms980탎).
+2022-08-03 19:26:54,780 ERROR org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Failed delivery for (MessageId: ID:MUM-LAP-1508-57281-1659506237838-4:6:1:1:3 on ExchangeId: C80FBFD20327355-0000000000000000). Exhausted after delivery attempt: 1 caught: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":7,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+
+Message History (source location and message history is disabled)
+---------------------------------------------------------------------------------------------------------------------------------------
+Source                                   ID                             Processor                                          Elapsed (ms)
+                                         route2/route2                  from[activemq://EmployeeQueue]                           110281
+	...
+                                         route2/choice2                 choice[when[{com.demoProj.predicate.PredicateEmp@3            0
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":7,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":7,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:26:54,783 WARN org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Execution of JMS message listener failed. Caused by: [org.apache.camel.RuntimeCamelException - java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":7,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])]
+org.apache.camel.RuntimeCamelException: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":7,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at org.apache.camel.RuntimeCamelException.wrapRuntimeCamelException(RuntimeCamelException.java:51)
+	at org.apache.camel.component.jms.EndpointMessageListener$EndpointMessageListenerAsyncCallback.done(EndpointMessageListener.java:217)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:136)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":7,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":7,
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:27:12,705 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 19:27:37,155 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s361ms49탎800ns).
+2022-08-03 19:27:38,659 ERROR org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Failed delivery for (MessageId: ID:MUM-LAP-1508-57281-1659506237838-4:6:1:1:4 on ExchangeId: C80FBFD20327355-0000000000000001). Exhausted after delivery attempt: 1 caught: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":"Shubham",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+
+Message History (source location and message history is disabled)
+---------------------------------------------------------------------------------------------------------------------------------------
+Source                                   ID                             Processor                                          Elapsed (ms)
+                                         route2/route2                  from[activemq://EmployeeQueue]                            25956
+	...
+                                         route2/choice2                 choice[when[{com.demoProj.predicate.PredicateEmp@3            0
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":"Shubham",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":"Shubham",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:27:38,660 WARN org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Execution of JMS message listener failed. Caused by: [org.apache.camel.RuntimeCamelException - java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":"Shubham",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])]
+org.apache.camel.RuntimeCamelException: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":"Shubham",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at org.apache.camel.RuntimeCamelException.wrapRuntimeCamelException(RuntimeCamelException.java:51)
+	at org.apache.camel.component.jms.EndpointMessageListener$EndpointMessageListenerAsyncCallback.done(EndpointMessageListener.java:217)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:136)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":"Shubham",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":3,
+"compId":1,
+"name":"Shubham",
+"operation":"create"
+}"; line: 2, column: 10] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:27:54,683 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 15572 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 19:27:54,687 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 19:27:55,988 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 19:27:56,090 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 3 JPA repository interfaces.
+2022-08-03 19:27:57,111 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 19:27:57,123 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:27:57,124 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 19:27:57,124 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 19:27:57,496 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 19:27:57,497 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2757 ms
+2022-08-03 19:27:57,743 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 19:27:57,833 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 19:27:58,091 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 19:27:58,267 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 19:27:58,741 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 19:27:58,776 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 19:28:00,039 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 19:28:00,050 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 19:28:01,224 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 19:28:02,004 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:28:02,073 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 19:28:02,494 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 19:28:02,730 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 19:28:02,730 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 19:28:02,731 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 19:28:02,731 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 680ms (build:111ms init:333ms start:236ms)
+2022-08-03 19:28:02,738 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 8.683 seconds (JVM running for 9.615)
+2022-08-03 19:49:42,102 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 10216 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 19:49:42,106 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 19:49:43,518 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 19:49:43,623 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92 ms. Found 3 JPA repository interfaces.
+2022-08-03 19:49:44,864 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 19:49:44,877 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:49:44,878 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 19:49:44,879 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 19:49:45,316 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 19:49:45,317 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3139 ms
+2022-08-03 19:49:45,657 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 19:49:45,743 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 19:49:46,034 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 19:49:46,238 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 19:49:46,727 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 19:49:46,749 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 19:49:47,871 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 19:49:47,884 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 19:49:49,196 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 19:49:50,018 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:49:50,084 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 19:49:50,514 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 19:49:50,755 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 19:49:50,756 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 19:49:50,756 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 19:49:50,756 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 671ms (build:104ms init:326ms start:241ms)
+2022-08-03 19:49:50,764 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 9.445 seconds (JVM running for 10.453)
+2022-08-03 19:50:37,305 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 19:51:20,507 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s666ms662탎700ns).
+2022-08-03 19:51:54,331 ERROR org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Failed delivery for (MessageId: ID:MUM-LAP-1508-57281-1659506237838-4:6:1:1:5 on ExchangeId: B944C6E619C6491-0000000000000000). Exhausted after delivery attempt: 1 caught: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+
+Message History (source location and message history is disabled)
+---------------------------------------------------------------------------------------------------------------------------------------
+Source                                   ID                             Processor                                          Elapsed (ms)
+                                         route2/route2                  from[activemq://EmployeeQueue]                            77113
+	...
+                                         route2/choice2                 choice[when[{com.demoProj.predicate.PredicateEmp@3            0
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:51:54,336 WARN org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Execution of JMS message listener failed. Caused by: [org.apache.camel.RuntimeCamelException - java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])]
+org.apache.camel.RuntimeCamelException: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at org.apache.camel.RuntimeCamelException.wrapRuntimeCamelException(RuntimeCamelException.java:51)
+	at org.apache.camel.component.jms.EndpointMessageListener$EndpointMessageListenerAsyncCallback.done(EndpointMessageListener.java:217)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:136)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":88,
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:53:25,226 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 11676 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 19:53:25,230 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 19:53:26,568 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 19:53:26,665 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2022-08-03 19:53:27,723 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 19:53:27,735 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:53:27,736 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 19:53:27,736 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 19:53:28,153 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 19:53:28,154 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2860 ms
+2022-08-03 19:53:28,478 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 19:53:28,561 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 19:53:28,790 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 19:53:28,939 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 19:53:29,372 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 19:53:29,393 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 19:53:30,354 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 19:53:30,369 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 19:53:31,265 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 19:53:31,981 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 19:53:32,048 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 19:53:32,388 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 19:53:32,626 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 19:53:32,627 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 19:53:32,627 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 19:53:32,627 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 582ms (build:78ms init:266ms start:238ms)
+2022-08-03 19:53:32,634 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 8.052 seconds (JVM running for 9.043)
+2022-08-03 19:54:38,897 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 19:54:39,028 ERROR org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Failed delivery for (MessageId: ID:MUM-LAP-1508-57281-1659506237838-4:6:1:1:6 on ExchangeId: B445BFD59611891-0000000000000000). Exhausted after delivery attempt: 1 caught: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":"mahesh",
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+
+Message History (source location and message history is disabled)
+---------------------------------------------------------------------------------------------------------------------------------------
+Source                                   ID                             Processor                                          Elapsed (ms)
+                                         route2/route2                  from[activemq://EmployeeQueue]                              216
+	...
+                                         route2/choice2                 choice[when[{com.demoProj.predicate.PredicateEmp@7            0
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":"mahesh",
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":"mahesh",
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:54:39,031 WARN org.apache.camel.spi.CamelLogger [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Execution of JMS message listener failed. Caused by: [org.apache.camel.RuntimeCamelException - java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":"mahesh",
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])]
+org.apache.camel.RuntimeCamelException: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":"mahesh",
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at org.apache.camel.RuntimeCamelException.wrapRuntimeCamelException(RuntimeCamelException.java:51)
+	at org.apache.camel.component.jms.EndpointMessageListener$EndpointMessageListenerAsyncCallback.done(EndpointMessageListener.java:217)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:136)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:736)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:696)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:674)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":"mahesh",
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:26)
+	at org.apache.camel.processor.FilterProcessor.matches(FilterProcessor.java:89)
+	at org.apache.camel.processor.ChoiceProcessor.process(ChoiceProcessor.java:71)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$SimpleTask.run(RedeliveryErrorHandler.java:471)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:189)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:61)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:399)
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:83)
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:41)
+	at org.apache.camel.component.jms.EndpointMessageListener.onMessage(EndpointMessageListener.java:132)
+	... 11 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "empId" (class com.demoProj.bean.ValidationBean), not marked as ignorable (3 known properties: "type", "reason", "code"])
+ at [Source: (String)"{
+"empId":45,
+"compId":1,
+"name":"mahesh",
+"operation":"create"
+}"; line: 2, column: 11] (through reference chain: com.demoProj.bean.ValidationBean["empId"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3597)
+	at com.demoProj.predicate.PredicateEmp.matches(PredicateEmp.java:22)
+	... 21 common frames omitted
+2022-08-03 19:55:20,430 INFO com.demoProj.services.EmpService [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] updating Employee Data with post method
+2022-08-03 19:55:20,439 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Validation occurred
+2022-08-03 20:03:49,826 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 24196 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-03 20:03:49,834 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-03 20:03:51,133 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 20:03:51,245 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+2022-08-03 20:03:52,323 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-03 20:03:52,335 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-03 20:03:52,336 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-03 20:03:52,336 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-03 20:03:52,743 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-03 20:03:52,743 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2847 ms
+2022-08-03 20:03:53,008 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 20:03:53,098 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-03 20:03:53,357 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 20:03:53,499 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-03 20:03:53,896 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-03 20:03:53,919 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-03 20:03:54,892 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 20:03:54,904 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 20:03:55,769 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 20:03:56,514 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-03 20:03:56,594 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-03 20:03:57,071 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-03 20:03:57,294 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-03 20:03:57,294 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-03 20:03:57,295 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-03 20:03:57,295 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 668ms (build:72ms init:372ms start:224ms)
+2022-08-03 20:03:57,299 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 8.134 seconds (JVM running for 9.119)

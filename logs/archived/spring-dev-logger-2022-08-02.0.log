@@ -1,0 +1,89 @@
+2022-08-02 18:41:35,512 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 21732 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-02 18:41:35,517 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-02 18:41:36,795 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-02 18:41:36,903 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 3 JPA repository interfaces.
+2022-08-02 18:41:37,974 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-02 18:41:37,986 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-02 18:41:37,987 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-02 18:41:37,987 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 18:41:38,411 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-02 18:41:38,411 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2828 ms
+2022-08-02 18:41:38,681 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-02 18:41:38,763 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-02 18:41:38,990 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-02 18:41:39,134 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-02 18:41:39,517 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-02 18:41:39,536 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-02 18:41:40,492 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-02 18:41:40,503 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-02 18:41:41,432 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-02 18:41:42,151 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-02 18:41:42,218 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-02 18:41:42,585 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-02 18:41:42,802 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-02 18:41:42,803 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-02 18:41:42,804 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-02 18:41:42,804 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 579ms (build:77ms init:283ms start:219ms)
+2022-08-02 18:41:42,809 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 7.952 seconds (JVM running for 8.85)
+2022-08-02 18:42:29,948 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 15556 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-02 18:42:29,952 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-02 18:42:31,213 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-02 18:42:31,308 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2022-08-02 18:42:32,338 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-02 18:42:32,349 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-02 18:42:32,350 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-02 18:42:32,350 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 18:42:32,733 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-02 18:42:32,734 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2720 ms
+2022-08-02 18:42:33,069 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-02 18:42:33,152 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-02 18:42:33,434 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-02 18:42:33,594 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-02 18:42:34,006 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-02 18:42:34,030 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-02 18:42:34,998 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-02 18:42:35,009 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-02 18:42:35,894 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-02 18:42:36,657 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-02 18:42:36,718 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-02 18:42:37,075 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-02 18:42:37,286 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-02 18:42:37,287 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-02 18:42:37,287 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-02 18:42:37,287 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 562ms (build:74ms init:277ms start:211ms)
+2022-08-02 18:42:37,294 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 8.0 seconds (JVM running for 8.945)
+2022-08-02 18:44:48,289 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Exception occurred
+2022-08-02 18:45:33,051 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Exception occurred
+2022-08-02 18:46:04,168 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 15036 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-08-02 18:46:04,172 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-02 18:46:05,366 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-02 18:46:05,467 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2022-08-02 18:46:06,537 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-08-02 18:46:06,549 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-08-02 18:46:06,549 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-02 18:46:06,550 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 18:46:06,928 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-02 18:46:06,928 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2690 ms
+2022-08-02 18:46:07,195 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-02 18:46:07,277 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-02 18:46:07,501 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-02 18:46:07,688 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-02 18:46:08,120 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-02 18:46:08,141 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-02 18:46:09,088 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-02 18:46:09,101 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-02 18:46:09,964 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-02 18:46:10,691 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-08-02 18:46:10,753 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-02 18:46:11,136 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-08-02 18:46:11,345 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-08-02 18:46:11,346 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-08-02 18:46:11,347 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-08-02 18:46:11,347 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 577ms (build:65ms init:302ms start:210ms)
+2022-08-02 18:46:11,352 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 7.848 seconds (JVM running for 8.738)
+2022-08-02 18:49:22,156 ERROR com.demoProj.processor.ProcessorEmp [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Exception occurred
+2022-08-02 18:50:07,364 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 18:50:07,365 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-08-02 18:50:07,366 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-1] Completed initialization in 1 ms
+2022-08-02 18:50:07,399 INFO com.demoProj.services.ValidationService [http-nio-8082-exec-1] Getting Employee Data
+2022-08-02 18:50:07,399 ERROR com.demoProj.services.ValidationService [http-nio-8082-exec-1] Error ! ! ! !

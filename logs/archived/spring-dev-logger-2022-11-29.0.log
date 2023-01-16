@@ -1,0 +1,192 @@
+2022-11-29 12:12:13,547 INFO org.springframework.boot.StartupInfoLogger [Test worker] Starting DemoProjApplicationTests using Java 11.0.15 on MUM-LAP-1508 with PID 15256 (started by rohit.jadhav in C:\javaProj\demoProj)
+2022-11-29 12:12:13,560 INFO org.springframework.boot.SpringApplication [Test worker] The following 1 profile is active: "dev"
+2022-11-29 12:12:15,540 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [Test worker] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 12:12:15,695 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [Test worker] Finished Spring Data repository scanning in 132 ms. Found 3 JPA repository interfaces.
+2022-11-29 12:12:17,276 INFO org.hibernate.jpa.internal.util.LogHelper [Test worker] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 12:12:17,399 INFO org.hibernate.Version [Test worker] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-29 12:12:17,822 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [Test worker] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 12:12:18,100 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Starting...
+2022-11-29 12:12:18,821 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Start completed.
+2022-11-29 12:12:18,867 INFO org.hibernate.dialect.Dialect [Test worker] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 12:12:21,416 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [Test worker] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 12:12:21,439 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Test worker] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 12:12:24,190 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [Test worker] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 12:12:27,545 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Apache Camel 3.18.0 (camel-1) is starting
+2022-11-29 12:12:31,960 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Routes startup (started:2)
+2022-11-29 12:12:31,961 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker]     Started route1 (activemq://CompanyQueue)
+2022-11-29 12:12:31,962 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker]     Started route2 (activemq://EmployeeQueue)
+2022-11-29 12:12:31,963 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Apache Camel 3.18.0 (camel-1) started in 5s702ms (build:272ms init:1s14ms start:4s416ms)
+2022-11-29 12:12:31,969 INFO org.springframework.boot.StartupInfoLogger [Test worker] Started DemoProjApplicationTests in 19.291 seconds (JVM running for 23.062)
+2022-11-29 12:12:32,246 INFO org.apache.camel.impl.engine.AbstractCamelContext [SpringApplicationShutdownHook] Apache Camel 3.18.0 (camel-1) is shutting down (timeout:45s)
+2022-11-29 12:12:32,266 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook] Routes stopped (stopped:2)
+2022-11-29 12:12:32,266 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook]     Stopped route2 (activemq://EmployeeQueue)
+2022-11-29 12:12:32,267 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook]     Stopped route1 (activemq://CompanyQueue)
+2022-11-29 12:12:32,274 INFO org.apache.camel.impl.engine.AbstractCamelContext [SpringApplicationShutdownHook] Apache Camel 3.18.0 (camel-1) shutdown in 28ms (uptime:4s)
+2022-11-29 12:12:32,285 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 12:12:32,288 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-29 12:12:32,322 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-11-29 18:53:37,237 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 20468 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-11-29 18:53:37,243 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-11-29 18:53:38,610 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 18:53:38,718 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 3 JPA repository interfaces.
+2022-11-29 18:53:39,901 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-11-29 18:53:39,917 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-11-29 18:53:39,918 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-29 18:53:39,918 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-29 18:53:40,465 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-29 18:53:40,465 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3164 ms
+2022-11-29 18:53:40,849 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 18:53:40,972 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-29 18:53:41,289 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 18:53:41,470 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-29 18:53:41,999 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-29 18:53:42,031 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 18:53:43,144 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 18:53:43,155 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 18:53:44,163 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 18:53:44,953 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-11-29 18:53:45,027 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-11-29 18:53:45,477 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-11-29 18:53:49,786 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-11-29 18:53:49,787 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-11-29 18:53:49,787 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-11-29 18:53:49,787 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 4s748ms (build:83ms init:355ms start:4s310ms)
+2022-11-29 18:53:49,792 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 13.385 seconds (JVM running for 18.098)
+2022-11-29 18:53:54,795 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:53:56,832 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:01,834 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:03,882 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:08,881 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:10,942 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:15,919 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=3, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:18,006 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=3, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:22,961 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=4, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:25,065 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=4, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:30,010 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=5, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:32,120 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=5, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:37,057 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=6, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:39,175 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=6, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:44,111 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=7, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:46,234 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=7, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:51,170 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=8, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:53,291 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=8, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:54:58,212 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=9, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:00,346 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=9, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:05,270 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=10, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:07,382 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=10, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:12,307 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=11, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:14,436 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=11, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:19,353 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=12, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:21,492 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=12, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:26,412 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=13, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:28,551 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=13, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:33,477 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #1 - JmsConsumer[CompanyQueue]] Could not refresh JMS Connection for destination 'CompanyQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=14, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:55:35,607 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [Camel (camel-1) thread #2 - JmsConsumer[EmployeeQueue]] Could not refresh JMS Connection for destination 'EmployeeQueue' - retrying using FixedBackOff{interval=5000, currentAttempts=14, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2022-11-29 18:56:19,171 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoProjApplication using Java 11.0.15 on MUM-LAP-1508 with PID 9676 (C:\javaProj\demoProj\build\classes\java\main started by rohit.jadhav in C:\javaProj\demoProj)
+2022-11-29 18:56:19,175 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-11-29 18:56:20,441 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 18:56:20,546 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+2022-11-29 18:56:21,615 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-11-29 18:56:21,628 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2022-11-29 18:56:21,629 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-29 18:56:21,629 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-29 18:56:22,095 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-29 18:56:22,096 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2855 ms
+2022-11-29 18:56:22,367 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 18:56:22,464 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-29 18:56:22,724 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 18:56:22,891 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-29 18:56:23,299 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-29 18:56:23,321 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 18:56:24,308 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 18:56:24,325 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 18:56:25,307 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 18:56:26,008 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2022-11-29 18:56:26,084 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-11-29 18:56:26,449 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) is starting
+2022-11-29 18:56:26,651 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Routes startup (started:2)
+2022-11-29 18:56:26,652 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route1 (activemq://CompanyQueue)
+2022-11-29 18:56:26,652 INFO org.apache.camel.impl.engine.AbstractCamelContext [main]     Started route2 (activemq://EmployeeQueue)
+2022-11-29 18:56:26,652 INFO org.apache.camel.impl.engine.AbstractCamelContext [main] Apache Camel 3.18.0 (camel-1) started in 567ms (build:79ms init:286ms start:202ms)
+2022-11-29 18:56:26,656 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoProjApplication in 8.201 seconds (JVM running for 9.439)
+2022-11-29 18:57:26,174 INFO org.springframework.boot.StartupInfoLogger [Test worker] Starting DemoProjApplicationTests using Java 11.0.15 on MUM-LAP-1508 with PID 7276 (started by rohit.jadhav in C:\javaProj\demoProj)
+2022-11-29 18:57:26,176 INFO org.springframework.boot.SpringApplication [Test worker] The following 1 profile is active: "dev"
+2022-11-29 18:57:27,562 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [Test worker] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 18:57:27,688 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [Test worker] Finished Spring Data repository scanning in 110 ms. Found 3 JPA repository interfaces.
+2022-11-29 18:57:28,703 INFO org.hibernate.jpa.internal.util.LogHelper [Test worker] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 18:57:28,787 INFO org.hibernate.Version [Test worker] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-29 18:57:29,083 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [Test worker] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 18:57:29,283 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Starting...
+2022-11-29 18:57:29,723 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Start completed.
+2022-11-29 18:57:29,759 INFO org.hibernate.dialect.Dialect [Test worker] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 18:57:30,856 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [Test worker] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 18:57:30,870 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Test worker] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 18:57:32,510 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [Test worker] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 18:57:34,643 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Apache Camel 3.18.0 (camel-1) is starting
+2022-11-29 18:57:34,877 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Routes startup (started:2)
+2022-11-29 18:57:34,878 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker]     Started route1 (activemq://CompanyQueue)
+2022-11-29 18:57:34,879 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker]     Started route2 (activemq://EmployeeQueue)
+2022-11-29 18:57:34,880 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Apache Camel 3.18.0 (camel-1) started in 849ms (build:144ms init:469ms start:236ms)
+2022-11-29 18:57:34,886 INFO org.springframework.boot.StartupInfoLogger [Test worker] Started DemoProjApplicationTests in 9.393 seconds (JVM running for 12.589)
+2022-11-29 18:57:35,088 INFO org.apache.camel.impl.engine.AbstractCamelContext [SpringApplicationShutdownHook] Apache Camel 3.18.0 (camel-1) is shutting down (timeout:45s)
+2022-11-29 18:57:35,936 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook] Routes stopped (stopped:2)
+2022-11-29 18:57:35,936 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook]     Stopped route2 (activemq://EmployeeQueue)
+2022-11-29 18:57:35,937 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook]     Stopped route1 (activemq://CompanyQueue)
+2022-11-29 18:57:35,940 INFO org.apache.camel.impl.engine.AbstractCamelContext [SpringApplicationShutdownHook] Apache Camel 3.18.0 (camel-1) shutdown in 852ms (uptime:1s)
+2022-11-29 18:57:35,954 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 18:57:35,956 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-29 18:57:35,978 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-11-29 18:58:14,064 INFO org.springframework.boot.StartupInfoLogger [Test worker] Starting DemoProjApplicationTests using Java 11.0.15 on MUM-LAP-1508 with PID 24884 (started by rohit.jadhav in C:\javaProj\demoProj)
+2022-11-29 18:58:14,068 INFO org.springframework.boot.SpringApplication [Test worker] The following 1 profile is active: "dev"
+2022-11-29 18:58:15,728 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [Test worker] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 18:58:15,897 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [Test worker] Finished Spring Data repository scanning in 144 ms. Found 3 JPA repository interfaces.
+2022-11-29 18:58:17,133 INFO org.hibernate.jpa.internal.util.LogHelper [Test worker] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 18:58:17,240 INFO org.hibernate.Version [Test worker] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-29 18:58:17,608 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [Test worker] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 18:58:17,849 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Starting...
+2022-11-29 18:58:18,475 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Start completed.
+2022-11-29 18:58:18,522 INFO org.hibernate.dialect.Dialect [Test worker] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 18:58:19,839 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [Test worker] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 18:58:19,853 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Test worker] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 18:58:21,691 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [Test worker] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 18:58:24,568 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Apache Camel 3.18.0 (camel-1) is starting
+2022-11-29 18:58:24,804 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Routes startup (started:2)
+2022-11-29 18:58:24,806 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker]     Started route1 (activemq://CompanyQueue)
+2022-11-29 18:58:24,807 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker]     Started route2 (activemq://EmployeeQueue)
+2022-11-29 18:58:24,807 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Apache Camel 3.18.0 (camel-1) started in 1s53ms (build:166ms init:649ms start:238ms)
+2022-11-29 18:58:24,813 INFO org.springframework.boot.StartupInfoLogger [Test worker] Started DemoProjApplicationTests in 11.467 seconds (JVM running for 14.383)
+2022-11-29 18:58:25,013 INFO org.apache.camel.impl.engine.AbstractCamelContext [SpringApplicationShutdownHook] Apache Camel 3.18.0 (camel-1) is shutting down (timeout:45s)
+2022-11-29 18:58:25,865 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook] Routes stopped (stopped:2)
+2022-11-29 18:58:25,866 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook]     Stopped route2 (activemq://EmployeeQueue)
+2022-11-29 18:58:25,867 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook]     Stopped route1 (activemq://CompanyQueue)
+2022-11-29 18:58:25,871 INFO org.apache.camel.impl.engine.AbstractCamelContext [SpringApplicationShutdownHook] Apache Camel 3.18.0 (camel-1) shutdown in 857ms (uptime:1s)
+2022-11-29 18:58:25,883 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 18:58:25,884 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-29 18:58:25,905 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-11-29 19:00:40,902 INFO org.springframework.boot.StartupInfoLogger [Test worker] Starting DemoProjApplicationTests using Java 11.0.15 on MUM-LAP-1508 with PID 20624 (started by rohit.jadhav in C:\javaProj\demoProj)
+2022-11-29 19:00:40,905 INFO org.springframework.boot.SpringApplication [Test worker] The following 1 profile is active: "dev"
+2022-11-29 19:00:42,389 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [Test worker] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 19:00:42,504 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [Test worker] Finished Spring Data repository scanning in 100 ms. Found 3 JPA repository interfaces.
+2022-11-29 19:00:43,748 INFO org.hibernate.jpa.internal.util.LogHelper [Test worker] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 19:00:43,848 INFO org.hibernate.Version [Test worker] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-29 19:00:44,233 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [Test worker] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 19:00:44,473 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Starting...
+2022-11-29 19:00:45,067 INFO com.zaxxer.hikari.HikariDataSource [Test worker] HikariPool-1 - Start completed.
+2022-11-29 19:00:45,107 INFO org.hibernate.dialect.Dialect [Test worker] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 19:00:46,385 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [Test worker] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 19:00:46,399 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Test worker] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 19:00:48,211 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [Test worker] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 19:00:50,813 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Apache Camel 3.18.0 (camel-1) is starting
+2022-11-29 19:00:51,091 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Routes startup (started:2)
+2022-11-29 19:00:51,092 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker]     Started route1 (activemq://CompanyQueue)
+2022-11-29 19:00:51,093 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker]     Started route2 (activemq://EmployeeQueue)
+2022-11-29 19:00:51,094 INFO org.apache.camel.impl.engine.AbstractCamelContext [Test worker] Apache Camel 3.18.0 (camel-1) started in 1s86ms (build:178ms init:629ms start:279ms)
+2022-11-29 19:00:51,101 INFO org.springframework.boot.StartupInfoLogger [Test worker] Started DemoProjApplicationTests in 10.808 seconds (JVM running for 13.377)
+2022-11-29 19:00:51,309 INFO org.apache.camel.impl.engine.AbstractCamelContext [SpringApplicationShutdownHook] Apache Camel 3.18.0 (camel-1) is shutting down (timeout:45s)
+2022-11-29 19:00:52,170 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook] Routes stopped (stopped:2)
+2022-11-29 19:00:52,170 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook]     Stopped route2 (activemq://EmployeeQueue)
+2022-11-29 19:00:52,171 INFO org.apache.camel.spi.CamelLogger [SpringApplicationShutdownHook]     Stopped route1 (activemq://CompanyQueue)
+2022-11-29 19:00:52,175 INFO org.apache.camel.impl.engine.AbstractCamelContext [SpringApplicationShutdownHook] Apache Camel 3.18.0 (camel-1) shutdown in 866ms (uptime:1s)
+2022-11-29 19:00:52,190 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 19:00:52,192 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-29 19:00:52,210 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
