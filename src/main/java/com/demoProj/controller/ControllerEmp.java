@@ -56,7 +56,16 @@ public class ControllerEmp {
         return empService.updateEmp(emp_id,empBean);
     }
     @GetMapping("/id/{emp_id}")
-    public Optional<EmpEntity> getById(@PathVariable int emp_id){
-        return  empService.getById(emp_id);
+    public ResponseEntity<Optional<EmpEntity>> getById(@PathVariable int emp_id){
+        ResponseEntity<Optional<EmpEntity>> res;
+        Optional<EmpEntity> empEntity = empService.getById(emp_id);
+        if (empEntity.isPresent()){
+            res = ResponseEntity.status(HttpStatus.OK).body(empEntity);
+        return  res;
+        }
+        else {
+            res = ResponseEntity.status(HttpStatus.BAD_REQUEST).body(empEntity);
+            return res;
+        }
     }
     }

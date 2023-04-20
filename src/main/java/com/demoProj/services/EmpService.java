@@ -87,7 +87,13 @@ public class EmpService {
     public Optional<EmpEntity> getById(int emp_id) {
         Optional<EmpEntity> empData = employeeRepository.findById(emp_id);
 //        Employee employee =  empData.get();
-
-        return employeeRepository.findById(emp_id);
+        if(empData.isPresent()){
+            logger.info("emp id = "+emp_id+"  is present");
+            return empData;
+        }
+        else {
+            logger.error("emp id = "+emp_id+"  is not present please try again");
+            return empData;
+        }
     }
 }
