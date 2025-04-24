@@ -15,6 +15,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'junit:junit:4.13.1'
 	runtimeOnly 'mysql:mysql-connector-java'
 	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.3'
 	implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.13.3'
@@ -24,7 +25,6 @@ dependencies {
 	implementation group: 'org.apache.camel.springboot', name: 'camel-activemq-starter', version: '3.18.0'
 	implementation group: 'org.apache.camel.springboot', name: 'camel-spring-boot-starter', version: '3.18.0'
 	implementation group: 'org.apache.camel.springboot', name: 'camel-jackson-starter', version: '3.18.0'
-
 	testImplementation 'junit:junit:4.12'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.2'
 

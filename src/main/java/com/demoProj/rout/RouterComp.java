@@ -1,7 +1,6 @@
 package com.demoProj.rout;
 
 import com.demoProj.predicate.PredicateComp;
-import com.demoProj.predicate.PredicateEmp;
 import com.demoProj.processor.ProcessorComp;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,9 +21,10 @@ public class RouterComp extends RouteBuilder {
                 .process(processorComp)
                 .choice()
                 .when(predicateComp)
-//                .log("")
-//                .otherwise()
-//                .log("")
+                .to("activemq:ValidationResultQueue")
+                .otherwise()
+                .to("activemq:toMQ")
+                .log("Operation Completed")
                 .end();
 
     }

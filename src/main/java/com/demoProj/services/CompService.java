@@ -22,10 +22,6 @@ public class CompService {
     Logger logger = LoggerFactory.getLogger(CompService.class);
 
 
-    public List<CompEntity> getCompData(){
-        return compRepo.findAll();
-    }
-
     public Boolean saveCompany(CompBean company){
         try {
             if (Objects.nonNull(company.getCompID())) {
@@ -64,6 +60,12 @@ public class CompService {
                 throw new ValidationException("Operation delete was terminate because given Company id is not present");
             }
         }
+
+    public List<CompEntity> getCompData() {
+        logger.debug("getting Comp Data");
+        logger.info("getting Comp Data");
+        return compRepo.findAll();
+    }
 
 
     public Boolean updateComp(Integer comp_id, CompBean compBean) {

@@ -42,6 +42,9 @@ public class ProcessorEmp implements Processor {
                 }
                 else if(empBean.getOperation().equalsIgnoreCase("read")){
                     List<EmpEntity> obj = empService.getEmpData();
+                    String resp = objectMapper.writeValueAsString(obj);
+                    exchange.getIn().setBody(resp);
+                    System.out.println("data is "+obj);
                 }
                 else if(empBean.getOperation().equalsIgnoreCase("delete")){
                     empService.deleteEmp(empBean.getEmpId());

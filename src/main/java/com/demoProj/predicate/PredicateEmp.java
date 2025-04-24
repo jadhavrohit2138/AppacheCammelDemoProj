@@ -2,7 +2,6 @@ package com.demoProj.predicate;
 
 import com.demoProj.bean.ValidationBean;
 import com.demoProj.services.EmpService;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.camel.Exchange;
 import org.apache.camel.Predicate;
@@ -17,13 +16,17 @@ public class PredicateEmp implements Predicate  {
 
     @Override
     public boolean matches(Exchange exchange) {
-        ObjectMapper objectMapper =new ObjectMapper();
+        ObjectMapper objectMapper = new ObjectMapper();
+//        return true;
         try {
             ValidationBean validationBean = objectMapper.readValue(exchange.getMessage().getBody().toString(),ValidationBean.class);
             System.out.println(validationBean.getCode());
             return validationBean.getCode()==500 || validationBean.getCode() == 400;
-        } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
+//        } catch (JsonProcessingException e) {
+//            throw new RuntimeException(e);
+//        }
+    } catch (Exception e) {
+            return false;
         }
     }
 }

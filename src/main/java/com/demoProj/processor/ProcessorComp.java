@@ -2,6 +2,7 @@ package com.demoProj.processor;
 
 import com.demoProj.bean.CompBean;
 import com.demoProj.bean.ValidationBean;
+import com.demoProj.entity.CompEntity;
 import com.demoProj.services.CompService;
 import com.demoProj.services.EmpService;
 import com.demoProj.services.ValidationService;
@@ -12,7 +13,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
 import javax.xml.bind.ValidationException;
+import java.util.List;
 
 @Component
 public class ProcessorComp implements Processor {
@@ -39,6 +42,12 @@ public class ProcessorComp implements Processor {
                 if (compBean.getOperation().equalsIgnoreCase("create")){
                     flag = compService.saveCompany(compBean);
                     System.out.println(flag);
+                }
+                else if(compBean.getOperation().equalsIgnoreCase("read")){
+                    List<CompEntity> obj = compService.getCompData();
+                    String resp = objectMapper.writeValueAsString(obj);
+                    exchange.getIn().setBody(resp);
+                    System.out.println("data is "+obj);
                 }
                 else if(compBean.getOperation().equalsIgnoreCase("update")){
                     flag = compService.updateComp(compBean.getCompID(),compBean);

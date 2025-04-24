@@ -21,8 +21,9 @@ public class RouterEmp extends RouteBuilder {
                 .process(processorEmp)
                 .choice()
                 .when(predicateEmp)
-                .to("activemq:ValidationResultQueue") // work in progress
+                .to("activemq:ValidationResultQueue")
                 .otherwise()
+                .to("activemq:toMQ")
                 .log("Operation Completed")
                 .end();
     }

@@ -11,13 +11,14 @@ import org.springframework.stereotype.Component;
 public class PredicateComp implements Predicate {
     @Override
     public boolean matches(Exchange exchange) {
-        ObjectMapper objectMapper =new ObjectMapper();
+        ObjectMapper objectMapper = new ObjectMapper();
         try {
             ValidationBean validationBean = objectMapper.readValue(exchange.getMessage().getBody().toString(),ValidationBean.class);
             System.out.println(validationBean.getCode());
             return validationBean.getCode() == 500 || validationBean.getCode() == 400;
         } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
+            return false;
+//            throw new RuntimeException(e);
         }
     }
 }
